@@ -1,0 +1,28 @@
+body{
+    background-color: beige;
+}
+.top{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+}
+.top img{
+    height: 111px;
+    margin-bottom: 23px;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    justify-content: center;
+    display: flex;}
+.button button{
+    width: 13%;  
+}
