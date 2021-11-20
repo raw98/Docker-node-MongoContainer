@@ -1,7 +1,7 @@
 const bodyparser = require('body-parser')
 const express = require('express');
 const mongoose  = require('mongoose');
-const cors = require('cors');
+const cors = require('cors') ;
 mongoose.connect('mongodb://rawand:rawand@localhost:27017/users?authSource=admin',{   useNewUrlParser: true,
 useUnifiedTopology: true} ,(err) =>{
     if(err){
